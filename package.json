@@ -1,0 +1,23 @@
+{
+  "name": "cra-template-reacttype",
+  "version": "1.0.1",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript"
+  ],
+  "description": "Basic template using typescript for create react app",
+  "main": "template.json",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "bugs": {
+    "url": "https://github.com/facebook/create-react-app/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

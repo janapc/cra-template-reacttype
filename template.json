@@ -1,0 +1,35 @@
+  {
+    "dependencies": {
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/user-event": "^7.1.2",
+      "@types/node": "^12.0.0",
+      "@types/react": "^16.9.0",
+      "@types/react-dom": "^16.9.0",
+      "@types/jest": "^24.0.0",
+      "typescript": "~3.7.2",
+      "@typescript-eslint/eslint-plugin": "^2.19.2",
+      "@typescript-eslint/parser": "^2.19.2",
+      "eslint-config-airbnb": "^18.0.1",
+      "eslint-config-prettier": "^6.10.0",
+      "eslint-plugin-import": "^2.20.1",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-plugin-prettier": "^3.1.2",
+      "eslint-plugin-react": "^7.18.3",
+      "prettier": "^1.19.1",
+      "@types/react-router-dom": "^5.1.3",
+      "@types/styled-components": "^4.4.3",
+      "axios": "^0.19.2",
+      "react-router-dom": "^5.1.2",
+      "styled-components": "^5.0.1"
+    },
+    "scripts": {
+      "fix": "eslint --fix ./src/",
+      "lint": "eslint ./src/"
+    },
+    "package": {
+      "jest": {
+        "snapshotSerializers": ["enzyme-to-json/serializer"]
+      }
+    }
+  }
