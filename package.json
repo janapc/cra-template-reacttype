@@ -1,6 +1,6 @@
 {
   "name": "cra-template-reacttype",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "react",
     "create-react-app",
@@ -15,6 +15,10 @@
   },
   "bugs": {
     "url": "https://github.com/facebook/create-react-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:janapc/cra-template-reacttype.git"
   },
   "files": [
     "template",
